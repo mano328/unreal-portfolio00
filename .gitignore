@@ -109,3 +109,15 @@ Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
 Content/__ExternalActors__/
 Content/__ExternalObjects__/
 Content/_GENERATED/
+
+# 기존 무시 중
+Content/LDProps/
+
+# 예외 처리로 StaticMeshes 폴더는 포함
+!Content/LDProps/StaticMeshes/
+
+# StaticMeshes 안의 모든 파일 포함
+!Content/LDProps/StaticMeshes/**
+
+# 단, Cliff 메시 하나만 명시적으로 무시
+Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
