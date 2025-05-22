@@ -88,36 +88,20 @@ DerivedDataCache/
 Intermediate/
 Saved/
 
-# 외부 에셋 (용량 크고, GitHub에 올릴 필요 없음)
+# 외부 에셋 무시 (용량 큼)
 Content/Effects/
 Content/InfinityBladeAdversaries/
 Content/Environments/
 Content/Materials/Fog/
 Content/Materials/FogCards/
 Content/Maps/Topview/
-Content/Maps/LG/Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
-Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
-Content/__ExternalActors__/
-Content/__ExternalObjects__/
-Content/_GENERATED/
-Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
-Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
-Content/__ExternalActors__/
-Content/__ExternalObjects__/
-Content/_GENERATED/
-Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
-Content/__ExternalActors__/
-Content/__ExternalObjects__/
-Content/_GENERATED/
 
-# 기존 무시 중
-Content/LDProps/
 
-# 예외 처리로 StaticMeshes 폴더는 포함
+# StaticMeshes 폴더 및 하위 모든 파일 포함
+!Content/LDProps/
 !Content/LDProps/StaticMeshes/
+!Content/LDProps/StaticMeshes/**/*.uasset
 
-# StaticMeshes 안의 모든 파일 포함
-!Content/LDProps/StaticMeshes/**
-
-# 단, Cliff 메시 하나만 명시적으로 무시
+# 단, Cliff 메시만 무시
 Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
+
