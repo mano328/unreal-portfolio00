@@ -34,28 +34,24 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # 🧱 바이너리와 빌드
-Binaries/*
-Plugins/**/Binaries/*
-Build/*
-!Build/*/
-Build/*/**
+Binaries/
+Plugins/**/Binaries/
+Build/
+!Build/**/
 !Build/*/PakBlacklist*.txt
 !Build/**/*.ico
 
-# 🗺️ 자동 생성된 맵 데이터
-# *_BuiltData.uasset (필요 시 주석 해제)
+# ⚙️ 자동 생성/캐시/중간 파일
+Saved/
+Intermediate/
+DerivedDataCache/
+Plugins/**/Intermediate/
 
-# ⚙️ 엔진이 생성하는 설정/캐시 파일
-Saved/*
-Intermediate/*
-Plugins/**/Intermediate/*
-DerivedDataCache/*
-
-# ❌ 특정 파일 또는 확장자 무시
+# ❌ 기타 무시
 *.tmp
 MyCustomFolder/
 
-# 🌍 Unreal 자동 생성 또는 외부 액터 캐시 무시
+# 🌍 언리얼 자동 생성 폴더 무시
 Content/_GENERATED/
 Content/Maps/_GENERATED/
 Content/__ExternalActors__/
@@ -69,10 +65,10 @@ Content/Materials/Fog/
 Content/Materials/FogCards/
 Content/Maps/Topview/
 
-# ✅ StaticMeshes 추적 (LDProps는 기본적으로 무시하지 않음)
+# ✅ LDProps/StaticMeshes는 추적
 !Content/LDProps/
 !Content/LDProps/StaticMeshes/
 !Content/LDProps/StaticMeshes/**/*.uasset
 
-# ❌ Cliff 메시만 예외적으로 무시
+# ❌ 단일 메시 제외
 Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
