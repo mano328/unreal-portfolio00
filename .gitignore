@@ -76,3 +76,7 @@ Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
 # ✅ 레벨 파일(.umap) 추적 허용
 !Content/Maps/
 !Content/Maps/**/*.umap
+
+Content/Maps/Test_GitMap.umap
+Content/Maps/Test_GitMap_HLODLayer_Instanced.uasset
+Content/Maps/Test_GitMap_HLODLayer_Merged.uasset
