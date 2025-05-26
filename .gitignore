@@ -72,3 +72,7 @@ Content/Maps/Topview/
 
 # ❌ 단일 메시 제외
 Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
+
+# ✅ 레벨 파일(.umap) 추적 허용
+!Content/Maps/
+!Content/Maps/**/*.umap
