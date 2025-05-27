@@ -65,13 +65,13 @@ Content/Materials/Fog/
 Content/Materials/FogCards/
 Content/Maps/Topview/
 
-# ✅ LDProps/StaticMeshes는 추적
+# ✅ LDProps/StaticMeshes는 모두 추적
 !Content/LDProps/
 !Content/LDProps/StaticMeshes/
 !Content/LDProps/StaticMeshes/**/*.uasset
 
-# ❌ 단일 메시 제외
-Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
+# ❌ 더 이상 제외 없음 (이전 제외 라인은 삭제하거나 주석 처리)
+# Content/LDProps/StaticMeshes/DummyProps/SM_Dummy_Cliff_01.uasset
 
 # ✅ 레벨 파일(.umap) 추적 허용
 !Content/Maps/
