@@ -80,3 +80,7 @@ Content/Maps/Topview/
 Content/Maps/Test_GitMap.umap
 Content/Maps/Test_GitMap_HLODLayer_Instanced.uasset
 Content/Maps/Test_GitMap_HLODLayer_Merged.uasset
+
+# ✅ 외부 액터 추적 허용 (Landscape 등 변경 감지)
+!Content/Maps/__ExternalActors/
+!Content/Maps/__ExternalActors/**/*.uasset
