@@ -54,7 +54,6 @@ MyCustomFolder/
 # 🌍 언리얼 자동 생성 폴더 무시
 Content/_GENERATED/
 Content/Maps/_GENERATED/
-Content/__ExternalActors__/
 Content/__ExternalObjects__/
 
 # 🎮 외부 대용량 에셋 무시
