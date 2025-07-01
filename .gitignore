@@ -93,3 +93,9 @@ Content/Maps/Test_GitMap_HLODLayer_Merged.uasset
 # 🔥 Environments 폴더 추적 허용
 !Content/Environments/
 !Content/Environments/**/
+
+# ✅ Assets 폴더 추적 허용
+!Content/Assets/
+!Content/Assets/**/
+!Content/Assets/**/*.uasset
+!Content/Assets/**/*.umap
